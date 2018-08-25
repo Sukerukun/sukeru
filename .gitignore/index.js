@@ -107,4 +107,4 @@ bot.on("message", async message => {
 
 });
 
-bot.login(MAJOR.MINOR.PATCH);
+bot.login(process.env.TOKEN);
